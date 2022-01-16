@@ -1,5 +1,11 @@
+import Navbar from "./left-side-componets/navbar";
+
 function LeftSide() {
-  return <div> Left Side </div>;
+  return (
+    <div>
+      <Navbar></Navbar>
+    </div>
+  );
 }
 
 export default LeftSide;
