@@ -1,5 +1,3 @@
-function RightSide() {
+export function RightSide() {
   return <div>Right side </div>;
 }
-
-export default RightSide;

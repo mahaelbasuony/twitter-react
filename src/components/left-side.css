@@ -1,0 +1,13 @@
+.left-side {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+
+/* 
+[class^="icon-"],
+[class*=" icon-"] {
+    display: inline-block;
+    vertical-align: middle;
+} */

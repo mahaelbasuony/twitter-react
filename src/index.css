@@ -18,9 +18,6 @@ code {
     background-color: var(--main-bg-color);
     color: var(--text-color);
     font-family: var(--primary-font);
-}
-
-.page__inner {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;

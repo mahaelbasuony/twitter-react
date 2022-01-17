@@ -1,11 +1,12 @@
 import Navbar from "./left-side-componets/navbar";
+import "./left-side.css";
+import Icon from "./Icon";
 
-function LeftSide() {
+export function LeftSide() {
   return (
-    <div>
-      <Navbar></Navbar>
+    <div className="left-side">
+      {/* <Navbar></Navbar> */}
+      <Icon name="account-group" color="#ffffff" size={30} />
     </div>
   );
 }
-
-export default LeftSide;
