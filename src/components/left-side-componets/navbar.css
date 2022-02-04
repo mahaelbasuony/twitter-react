@@ -1,3 +1,15 @@
+/* .left-side__navbar-menu {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    padding: 15px 24px 15px 10px;
+    border-radius: 25px;
+}
+
+.left-side__navbar-menu:hover {
+    background-color: #333b45;
+} */
+
 .left-side__navbar-menu {
     display: flex;
     flex-direction: column;

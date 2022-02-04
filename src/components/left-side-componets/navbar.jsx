@@ -1,24 +1,36 @@
 import { memo, useState } from "react";
 import NavbarItem from "./navbar-item";
-import IconLogo from "../../images/logo.svg";
-import IconHome from "../../images/home.svg";
+
+import Icon from "../Icon";
 import "./navbar.css";
 function Navbar() {
   const menuItems = [
-    { label: "", icon: IconLogo },
-    { label: "Home", icon: IconHome },
-    { label: "Explore", icon: IconHome },
-    { label: "Notifictions", icon: IconHome },
-    { label: "Messages", icon: IconHome },
-    { label: "Bookmarks", icon: IconHome },
-    { label: "Lists", icon: IconHome },
-    { label: "Profile", icon: IconHome },
-    { label: "More", icon: IconHome },
+    { label: "", icon: "logo", size: 30, color: "#ffffff" },
+    { label: "Home", icon: "home", size: 25, color: "#ffffff" },
+    { label: "Explore", icon: "explore", size: 25, color: "#ffffff" },
+    {
+      label: "Notifictions",
+      icon: "notifications",
+      size: 25,
+      color: "#ffffff",
+    },
+    { label: "Messages", icon: "messages", size: 25, color: "#ffffff" },
+    { label: "Bookmarks", icon: "bookmark", size: 25, color: "#ffffff" },
+    { label: "Lists", icon: "list", size: 25, color: "#ffffff" },
+    { label: "Profile", icon: "profile", size: 25, color: "#ffffff" },
+    { label: "More", icon: "more", size: 25, color: "#ffffff" },
   ];
   return (
     <div className="left-side__navbar-menu">
       {menuItems.map((item) => (
-        <NavbarItem width="1rem" icon={item.icon} label={item.label} />
+        <NavbarItem
+          width="1rem"
+          color="red"
+          icon={item.icon}
+          label={item.label}
+          size={item.size}
+          color={item.color}
+        />
       ))}
     </div>
   );
