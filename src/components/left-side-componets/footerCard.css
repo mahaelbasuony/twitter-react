@@ -1,0 +1,21 @@
+.left-col__user-footer__card {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.left-col__user-footer__info {
+    display: inline-block;
+    padding-left: 0.625rem;
+}
+
+.left-col__user-footer__name {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.left-col__user-footer__handel {
+    font-size: 0.875rem;
+    color: #6d7b85;
+}

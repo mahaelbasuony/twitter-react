@@ -1,0 +1,9 @@
+.left-side__navbar-menu__logo {
+    padding: 23px 12px 8px 12px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.left-side__navbar-menu__logo:hover {
+    background-color: #333b45;
+}

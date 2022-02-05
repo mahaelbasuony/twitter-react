@@ -3,35 +3,34 @@ import NavbarItem from "./navbar-item";
 
 import Icon from "../Icon";
 import "./navbar.css";
+import { Logo } from "./Logo";
+import { QuickTweetButton } from "./quick-tweet-button";
+
 function Navbar() {
   const menuItems = [
-    { label: "", icon: "logo", size: 30, color: "#ffffff" },
-    { label: "Home", icon: "home", size: 25, color: "#ffffff" },
-    { label: "Explore", icon: "explore", size: 25, color: "#ffffff" },
-    {
-      label: "Notifictions",
-      icon: "notifications",
-      size: 25,
-      color: "#ffffff",
-    },
-    { label: "Messages", icon: "messages", size: 25, color: "#ffffff" },
-    { label: "Bookmarks", icon: "bookmark", size: 25, color: "#ffffff" },
-    { label: "Lists", icon: "list", size: 25, color: "#ffffff" },
-    { label: "Profile", icon: "profile", size: 25, color: "#ffffff" },
-    { label: "More", icon: "more", size: 25, color: "#ffffff" },
+    { label: "Home", icon: "home" },
+    { label: "Explore", icon: "explore" },
+    { label: "Notifictions", icon: "notifications" },
+    { label: "Messages", icon: "messages" },
+    { label: "Bookmarks", icon: "bookmark" },
+    { label: "Lists", icon: "list" },
+    { label: "Profile", icon: "profile" },
+    { label: "More", icon: "more" },
   ];
   return (
     <div className="left-side__navbar-menu">
+      <Logo />
       {menuItems.map((item) => (
         <NavbarItem
           width="1rem"
           color="red"
           icon={item.icon}
           label={item.label}
-          size={item.size}
-          color={item.color}
+          size={20}
+          color="#fff"
         />
       ))}
+      <QuickTweetButton />
     </div>
   );
 }

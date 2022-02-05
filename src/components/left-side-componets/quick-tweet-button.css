@@ -1,0 +1,16 @@
+.left-col__tweet-button {
+    background-color: #1a91da;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    width: 100%;
+    color: #ffffff;
+    padding: 1rem;
+    font-weight: bold;
+    margin-top: 1.875rem;
+}
+
+.left-col__tweet-button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}

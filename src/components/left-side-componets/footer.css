@@ -1,0 +1,13 @@
+.left-col__user-footer {
+    border-radius: 36px;
+    padding: 10px 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 .25rem .75rem;
+}
+
+.left-col__user-footer:hover {
+    background-color: #2d3741;
+}
