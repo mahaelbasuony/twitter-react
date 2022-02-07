@@ -1,0 +1,6 @@
+.what-happening-box {
+    display: flex;
+    flex-flow: column;
+    border-bottom: 1px solid #38444d;
+    padding: 0.625rem .5rem;
+}

@@ -1,4 +1,4 @@
-import avatar from "./images/avatar.png";
+import avatar from "../images/avatar.png";
 import "./profilePhoto.css";
 export const ProfilePhoto = () => {
   return (

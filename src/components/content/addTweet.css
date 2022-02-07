@@ -1,0 +1,59 @@
+.tweet-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweet-box__container {
+    width: calc(100% - 80px);
+    padding-top: 1rem;
+}
+
+.tweet-box__field {
+    resize: none;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: self-end;
+}
+
+.tweet-box__field:focus {
+    outline: none;
+}
+
+.tweet-box__user-card {
+    width: 80px;
+    text-align: center;
+    display: block;
+}
+
+.tweet-box__user-avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.tweet-box__user-avatar:hover {
+    opacity: 0.9;
+}
+
+.tweet-box__privacy {
+    display: none;
+    border-bottom: 1px solid #38444d;
+    padding-bottom: .75rem;
+    margin-bottom: 0.625rem;
+}
+
+.tweet-box__privacy-message {
+    text-decoration: none;
+    color: #1c9be9;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.tweet-box__field:focus~.tweet-box__privacy,
+.tweet-box__fieldvalid~.tweet-box__privacy {
+    display: block;
+}
