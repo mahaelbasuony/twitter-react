@@ -1,3 +1,9 @@
+import "./content.css";
+import { Header } from "./Header";
 export const Content = () => {
-  return <div>content</div>;
+  return (
+    <div className="content">
+      <Header />
+    </div>
+  );
 };
