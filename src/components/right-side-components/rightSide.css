@@ -1,0 +1,5 @@
+.right-col {
+    width: 350px;
+    display: flex;
+    flex-flow: column;
+}
