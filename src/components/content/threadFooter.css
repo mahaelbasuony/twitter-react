@@ -1,0 +1,80 @@
+.tweet-template__content {
+    margin: .5rem 0;
+}
+
+.tweet-template__footer {
+    display: flex;
+    justify-content: space-between;
+    padding: .25rem 0;
+}
+
+.tweet-template__footer__action {
+    flex-grow: 1;
+    color: #8899a6;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.tweet-template__footer__action__container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.tweet-template__footer__action__container__value {
+    font-size: .75rem;
+}
+
+.tweet-template__icon {
+    padding: .5rem;
+    margin-right: 4px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+.tweet-template__icon svg {
+    width: 100%;
+    height: 100%;
+    fill: #8899a6;
+}
+
+.tweet-template__footer__action--reply .tweet-template__footer__action__container:hover,
+.tweet-template__footer__action--reply .tweet-template__footer__action__container:hover svg {
+    color: #1da1f2;
+    fill: #1da1f2;
+}
+
+.tweet-template__footer__action--reply .tweet-template__footer__action__container:hover .tweet-template__icon {
+    background-color: #20394d;
+}
+
+.tweet-template__footer__action--retweet .tweet-template__footer__action__container:hover,
+.tweet-template__footer__action--retweet .tweet-template__footer__action__container:hover svg {
+    color: rgb(0, 186, 124);
+    fill: rgb(0, 186, 124);
+}
+
+.tweet-template__footer__action--retweet .tweet-template__footer__action__container:hover .tweet-template__icon {
+    background-color: rgba(0, 186, 124, 0.18);
+}
+
+.tweet-template__footer__action--like .tweet-template__footer__action__container:hover,
+.tweet-template__footer__action--like .tweet-template__footer__action__container:hover svg {
+    color: rgb(249, 24, 128);
+    fill: rgb(249, 24, 128);
+}
+
+.tweet-template__footer__action--like .tweet-template__footer__action__container:hover .tweet-template__icon {
+    background-color: rgba(249, 24, 128, 0.18);
+}
+
+.tweet-template__icon__like::after {
+    content: '100';
+}
+
+.tweet-template__footer__action--share .tweet-template__footer__action__container:hover .tweet-template__icon,
+.tweet-template__footer__action--share .tweet-template__footer__action__container:hover svg {
+    background-color: #20394d;
+    fill: #1da1f2;
+}

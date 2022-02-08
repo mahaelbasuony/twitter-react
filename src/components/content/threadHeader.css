@@ -1,0 +1,58 @@
+.tweet-template__header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.tweet-template__more-info-icon {
+    padding: 8px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: 4px;
+}
+
+.tweet-template__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tweet-template__user__name {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.tweet-template__user__handel {
+    font-size: 1rem;
+    color: #6d7b85;
+    margin-left: .25rem;
+    margin-top: 0;
+}
+
+.tweet-template__user {
+    display: flex;
+}
+
+.tweet-template__user:hover .tweet-template__user__name {
+    text-decoration: underline;
+}
+
+.tweet-template__time {
+    font-size: 1rem;
+    color: #6d7b85;
+    margin-left: .25rem;
+}
+
+.tweet-template__time:hover {
+    text-decoration: underline;
+}
+
+.tweet-template__more-info-icon:hover {
+    background-color: #20394d;
+    color: #1da1f2;
+}

@@ -1,0 +1,74 @@
+.thread {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--border-color);
+    padding: .5rem 0 0;
+}
+
+.tweet-template {
+    display: flex;
+    flex-direction: row;
+    /* border-bottom: 1px solid var(--border-color);
+    padding: 8px; */
+}
+
+.thread:hover {
+    background-color: var(--gray-700);
+}
+
+.tweet-template__container {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 80px);
+    padding-top: 12px;
+}
+
+.tweet-template__user-card {
+    width: 80px;
+    text-align: center;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tweet-template__user-card::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: calc(100% - 50px);
+    background-color: #38444d;
+    margin-top: .25rem;
+}
+
+.tweet-template__user-card::before {
+    content: '';
+    display: block;
+    width: 2px;
+    padding-top: 0px;
+    height: 14px;
+    background-color: #38444d;
+}
+
+.tweet-template:last-child .tweet-template__user-card::after {
+    display: none;
+}
+
+.tweet-template:first-child .tweet-template__user-card::before {
+    display: none;
+}
+
+.tweet-template:first-child .tweet-template__user-card {
+    padding-top: 12px;
+}
+
+.tweet-template__user-avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.tweet-template__user-card:hover,
+.tweet-template__user-avatar {
+    opacity: 0.9;
+}
