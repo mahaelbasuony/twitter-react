@@ -4,3 +4,21 @@
     border-left: 1px solid #38444d;
     border-right: 1px solid #38444d;
 }
+
+.thread {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #38444d;
+    padding: .5rem 0 0;
+}
+
+.thread:hover {
+    background-color: #1c2732;
+}
+
+.tweet-template {
+    display: flex;
+    flex-direction: row;
+    /* border-bottom: 1px solid var(--border-color);
+    padding: 8px; */
+}
