@@ -1,0 +1,81 @@
+.right-col__follow {
+    background-color: #192734;
+    border-radius: 25px;
+}
+
+.follow__header__title {
+    margin: 1rem 0 1rem 1.25rem;
+}
+
+.follow__container {
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.follow__container:hover {
+    background-color: #202f3a;
+}
+
+.follow__container__user-card {
+    text-decoration: none;
+    display: flex;
+    flex-flow: row;
+}
+
+.follow__container__user-avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.follow__container__username-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: .75rem;
+}
+
+.follow__container__username {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.follow__container__user-handel {
+    font-size: 1rem;
+    margin-top: .25rem;
+    color: #6d7b85;
+}
+
+.follow__container__username-info:hover .follow__container__username {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.follow__container__button {
+    font-weight: bold;
+    padding: 8px 16px;
+    align-self: center;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.follow__footer {
+    display: flex;
+}
+
+.follow__footer__show-more {
+    text-decoration: none;
+    color: #1da1f2;
+    border-radius: 0 0 25px 25px;
+    width: 100%;
+    padding: 16px 20px;
+}
+
+.follow__footer__show-more:hover {
+    background-color: #202f3a;
+    color: #1da1f2;
+}
